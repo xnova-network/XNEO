@@ -267,7 +267,7 @@ Understanding how XNEO protects your funds:
 
 | What | How |
 |---|---|
-| Private key at rest | AES-256-GCM, key derived from your password via PBKDF2 (100,000 iterations, SHA-256, random salt) |
+| Private key at rest | AES-256-GCM, key derived from your password via PBKDF2 (600,000 iterations, SHA-256, random salt) |
 | Seed phrase at rest | AES-256-GCM with a separate salt and IV, same password |
 | Private key in session | AES-256-GCM with a non-exportable in-memory key — never written to disk |
 
